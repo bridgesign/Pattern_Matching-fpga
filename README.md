@@ -15,8 +15,7 @@ Thus we can formulate the problem statement as follows:\
 in chucks on the FPGA.\
 • Find  the  number  of  overlapping  matches  of  the  pattern(to  be  loaded  externally).\
 • Display the number of matches on the FPGA board.\
-• Verify  the  result  generated  by  the  FPGA  through  some  other  means(here,
-through python).
+• Verify  the  result  generated  by  the  FPGA  through  some  other  means.
 ## Requirements
 Python 3 with pyserial library for serial communication.
 Basys3 FPGA board.
