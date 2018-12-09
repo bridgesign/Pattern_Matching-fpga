@@ -17,9 +17,9 @@ in chucks on the FPGA.
 nally).
 • Display the number of matches on the FPGA board.
 • Verify  the  result  generated  by  the  FPGA  through  some  other  means(here,
-through python)
+through python).
 ## Requirements
-Python 3 with pyserial library for serial communication\
-Basys3 FPGA board
+Python 3 with pyserial library for serial communication.
+Basys3 FPGA board.
 ## Parameters
 There are two parameters which need to be set 
