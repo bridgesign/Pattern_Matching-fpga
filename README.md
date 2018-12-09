@@ -13,8 +13,7 @@ bit-wise manipulation is possible according to our requirements.
 Thus we can formulate the problem statement as follows:\
 • Implement a way to load the given huge-size data( a gene sequence, basically)
 in chucks on the FPGA.\
-• Find  the  number  of  overlapping  matches  of  the  pattern(to  be  loaded  exter-
-nally).\
+• Find  the  number  of  overlapping  matches  of  the  pattern(to  be  loaded  externally).\
 • Display the number of matches on the FPGA board.\
 • Verify  the  result  generated  by  the  FPGA  through  some  other  means(here,
 through python).
@@ -22,4 +21,7 @@ through python).
 Python 3 with pyserial library for serial communication.
 Basys3 FPGA board.
 ## Parameters
-There are two parameters which need to be set 
+There are two parameters which need to be set\
+1. Length parameter : n\
+2. Chunk Parameter : count\
+The length needs to be set in control unit, multiplication unit and serial unit. The chunk parameter needs to be set in serial unit.
