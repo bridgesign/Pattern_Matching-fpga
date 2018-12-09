@@ -5,9 +5,9 @@ The static pattern matching problem has a text and a pattern given as its inputs
 and the outputs are all the text locations where the pattern occurs.  The first linear
 time  algorithm  was  given  by  Knuth,  Morris  and  Pratt  (KMP  Algorithm) and many more algorithms have been developed.
 We here will be encoding a given gene data and pattern and finding the number of
-matches in the gene data.  For this, we will use the 'Fischer Patterson Algorithm'.\
+matches in the gene data.  For this, we will use the 'Fischer Patterson Algorithm'.\ \
 We  are  going  to  modify  the  implementation  of  the  algorithm  and  simplify  it
-due the fact that the implementation will be on FPGA.We need to do this so that
+due the fact that the implementation will be on FPGA. We need to do this so that
 bit-wise manipulation is possible according to our requirements.\
 Thus we can formulate the problem statement as follows:\
 • Implement a way to load the given huge-size data( a gene sequence, basically)
