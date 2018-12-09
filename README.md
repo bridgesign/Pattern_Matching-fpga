@@ -1,2 +1,3 @@
 # Pattern_Matching-fpga
-Exact pattern matching in given dna text
+## Overview
+Project-cum-presentation for ES203:Digital Systems. The project was done on Basys3 board. It counts the number of overlapping occurences of a pattern in the given DNA text
