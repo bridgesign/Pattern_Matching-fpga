@@ -25,3 +25,13 @@ There are two parameters which need to be set\
 1. Length parameter : n\
 2. Chunk Parameter : count\
 The length needs to be set in control unit, multiplication unit and serial unit. The chunk parameter needs to be set in serial unit.
+## Encoding Table
+We will be encoding the data in the data text file before sending. The encoding is as follows:\
+000   A\
+001   T\
+010   G\
+011   C\
+100   S (Start)\
+110   P (Padding)\
+101   R (Reserved)\
+111   E (End)\
