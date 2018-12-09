@@ -19,7 +19,7 @@ nally).
 • Verify  the  result  generated  by  the  FPGA  through  some  other  means(here,
 through python)
 ## Requirements
-Python 3 with pyserial library for serial communication
+Python 3 with pyserial library for serial communication\
 Basys3 FPGA board
 ## Parameters
 There are two parameters which need to be set 
