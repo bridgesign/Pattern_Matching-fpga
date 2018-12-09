@@ -10,12 +10,12 @@ matches in the gene data.  For this, we will use the 'Fischer Patterson Algorith
 We  are  going  to  modify  the  implementation  of  the  algorithm  and  simplify  it
 due the fact that the implementation will be on FPGA. We need to do this so that
 bit-wise manipulation is possible according to our requirements.
-Thus we can formulate the problem statement as follows:
+Thus we can formulate the problem statement as follows:\
 • Implement a way to load the given huge-size data( a gene sequence, basically)
-in chucks on the FPGA.
+in chucks on the FPGA.\
 • Find  the  number  of  overlapping  matches  of  the  pattern(to  be  loaded  exter-
-nally).
-• Display the number of matches on the FPGA board.
+nally).\
+• Display the number of matches on the FPGA board.\
 • Verify  the  result  generated  by  the  FPGA  through  some  other  means(here,
 through python).
 ## Requirements
