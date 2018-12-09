@@ -22,7 +22,7 @@ Python 3 with pyserial library for serial communication.
 Basys3 FPGA board.
 ## Parameters
 There are two parameters which need to be set\
-1. Length parameter : n\
+1. Length parameter : n
 2. Chunk Parameter : count\
 The length needs to be set in control unit, multiplication unit and serial unit. The chunk parameter needs to be set in serial unit.
 ## Encoding Table
