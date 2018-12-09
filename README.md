@@ -34,4 +34,4 @@ We will be encoding the data in the data text file before sending. The encoding 
 100 :  S (Start)\
 110 :  P (Padding)\
 101 :  R (Reserved)\
-111 :  E (End)\
+111 :  E (End)
